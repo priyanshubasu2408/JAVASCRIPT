@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+    
+</head>
+<body>
+    <p id="demo">This is the first page.</p>
+    <script>
+        document.getElementById('demo').innerHTML='Hello';
+        document.getElementById('demo').style.fontSize="larger";
+        document.write(9+80);
+
+//  Note: Using document.write() after an HTML document is loaded, will delete all existing HTML:
+// Example:  <button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+        window.alert(5 + 6);
+        console.log(5 + 6);
+        
+    </script>
+
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>

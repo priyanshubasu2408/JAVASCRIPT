@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function myfunction(){
+            let a=10;
+            change(a);
+        }
+        function change(a){
+            document.getElementById('demo').innerHTML=a;
+        }
+    </script>
+</head>
+<body>
+    <p id="demo">A paragraph</p>
+    <button onclick="myfunction()">Click here</button>
+
+
+    <!-- External js
+        <script src="demo.js"></script>
+    -->
+
+</body>
+</html>

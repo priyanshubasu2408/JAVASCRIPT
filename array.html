@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        const ar=[23,45,67,89];
+        document.getElementById('demo').innerHTML=ar;
+        ar.push(78);
+        document.getElementById('demo1').innerHTML=ar;
+    </script>
+
+    <p id="objects"></p>
+
+    <script>
+        const car={type:"Tesla", model:2000, color:"White"};
+        car.owner="Me";
+        document.getElementById('objects').innerHTML=car.owner+"<br>"+typeof "  ";
+    </script>
+</body>
+</html>
